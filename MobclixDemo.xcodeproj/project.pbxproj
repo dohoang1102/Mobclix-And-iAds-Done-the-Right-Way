@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3292E33A151942100061782D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E339151942100061782D /* UIKit.framework */; };
+		3292E33C151942100061782D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E33B151942100061782D /* Foundation.framework */; };
+		3292E33E151942100061782D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E33D151942100061782D /* CoreGraphics.framework */; };
+		3292E344151942100061782D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3292E342151942100061782D /* InfoPlist.strings */; };
+		3292E346151942100061782D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3292E345151942100061782D /* main.m */; };
+		3292E34A151942100061782D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3292E349151942100061782D /* AppDelegate.m */; };
+		3292E351151942220061782D /* mobclix_application_id.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3292E350151942220061782D /* mobclix_application_id.plist */; };
+		3292E35B151942310061782D /* libMobclix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E353151942310061782D /* libMobclix.a */; };
+		3292E366151942940061782D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E35C151942940061782D /* AddressBook.framework */; };
+		3292E367151942940061782D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E35D151942940061782D /* AddressBookUI.framework */; };
+		3292E368151942940061782D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E35E151942940061782D /* AudioToolbox.framework */; };
+		3292E369151942940061782D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E35F151942940061782D /* AVFoundation.framework */; };
+		3292E36A151942940061782D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E360151942940061782D /* CoreMotion.framework */; };
+		3292E36B151942940061782D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E361151942940061782D /* EventKit.framework */; };
+		3292E36C151942940061782D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E362151942940061782D /* MediaPlayer.framework */; };
+		3292E36D151942940061782D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E363151942940061782D /* MessageUI.framework */; };
+		3292E36E151942940061782D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E364151942940061782D /* QuartzCore.framework */; };
+		3292E36F151942940061782D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E365151942940061782D /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3292E335151942100061782D /* MobclixDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobclixDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3292E339151942100061782D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3292E33B151942100061782D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3292E33D151942100061782D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3292E341151942100061782D /* MobclixDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobclixDemo-Info.plist"; sourceTree = "<group>"; };
+		3292E343151942100061782D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3292E345151942100061782D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3292E347151942100061782D /* MobclixDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobclixDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3292E348151942100061782D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3292E349151942100061782D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3292E350151942220061782D /* mobclix_application_id.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mobclix_application_id.plist; sourceTree = "<group>"; };
+		3292E353151942310061782D /* libMobclix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobclix.a; sourceTree = "<group>"; };
+		3292E354151942310061782D /* MCBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBrowserViewController.h; sourceTree = "<group>"; };
+		3292E355151942310061782D /* Mobclix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobclix.h; sourceTree = "<group>"; };
+		3292E356151942310061782D /* MobclixAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixAds.h; sourceTree = "<group>"; };
+		3292E357151942310061782D /* MobclixAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixAdView.h; sourceTree = "<group>"; };
+		3292E358151942310061782D /* MobclixDemographics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixDemographics.h; sourceTree = "<group>"; };
+		3292E359151942310061782D /* MobclixFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixFeedback.h; sourceTree = "<group>"; };
+		3292E35A151942310061782D /* MobclixFullScreenAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixFullScreenAdViewController.h; sourceTree = "<group>"; };
+		3292E35C151942940061782D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		3292E35D151942940061782D /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		3292E35E151942940061782D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3292E35F151942940061782D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3292E360151942940061782D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		3292E361151942940061782D /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		3292E362151942940061782D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3292E363151942940061782D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3292E364151942940061782D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3292E365151942940061782D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3292E332151942100061782D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3292E366151942940061782D /* AddressBook.framework in Frameworks */,
+				3292E367151942940061782D /* AddressBookUI.framework in Frameworks */,
+				3292E368151942940061782D /* AudioToolbox.framework in Frameworks */,
+				3292E369151942940061782D /* AVFoundation.framework in Frameworks */,
+				3292E36A151942940061782D /* CoreMotion.framework in Frameworks */,
+				3292E36B151942940061782D /* EventKit.framework in Frameworks */,
+				3292E36C151942940061782D /* MediaPlayer.framework in Frameworks */,
+				3292E36D151942940061782D /* MessageUI.framework in Frameworks */,
+				3292E36E151942940061782D /* QuartzCore.framework in Frameworks */,
+				3292E36F151942940061782D /* SystemConfiguration.framework in Frameworks */,
+				3292E33A151942100061782D /* UIKit.framework in Frameworks */,
+				3292E33C151942100061782D /* Foundation.framework in Frameworks */,
+				3292E33E151942100061782D /* CoreGraphics.framework in Frameworks */,
+				3292E35B151942310061782D /* libMobclix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3292E32A151942100061782D = {
+			isa = PBXGroup;
+			children = (
+				3292E33F151942100061782D /* MobclixDemo */,
+				3292E338151942100061782D /* Frameworks */,
+				3292E336151942100061782D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3292E336151942100061782D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3292E335151942100061782D /* MobclixDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3292E338151942100061782D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3292E35C151942940061782D /* AddressBook.framework */,
+				3292E35D151942940061782D /* AddressBookUI.framework */,
+				3292E35E151942940061782D /* AudioToolbox.framework */,
+				3292E35F151942940061782D /* AVFoundation.framework */,
+				3292E360151942940061782D /* CoreMotion.framework */,
+				3292E361151942940061782D /* EventKit.framework */,
+				3292E362151942940061782D /* MediaPlayer.framework */,
+				3292E363151942940061782D /* MessageUI.framework */,
+				3292E364151942940061782D /* QuartzCore.framework */,
+				3292E365151942940061782D /* SystemConfiguration.framework */,
+				3292E339151942100061782D /* UIKit.framework */,
+				3292E33B151942100061782D /* Foundation.framework */,
+				3292E33D151942100061782D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3292E33F151942100061782D /* MobclixDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3292E348151942100061782D /* AppDelegate.h */,
+				3292E349151942100061782D /* AppDelegate.m */,
+				3292E350151942220061782D /* mobclix_application_id.plist */,
+				3292E352151942310061782D /* Mobclix SDK */,
+				3292E340151942100061782D /* Supporting Files */,
+			);
+			path = MobclixDemo;
+			sourceTree = "<group>";
+		};
+		3292E340151942100061782D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3292E341151942100061782D /* MobclixDemo-Info.plist */,
+				3292E342151942100061782D /* InfoPlist.strings */,
+				3292E345151942100061782D /* main.m */,
+				3292E347151942100061782D /* MobclixDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3292E352151942310061782D /* Mobclix SDK */ = {
+			isa = PBXGroup;
+			children = (
+				3292E353151942310061782D /* libMobclix.a */,
+				3292E354151942310061782D /* MCBrowserViewController.h */,
+				3292E355151942310061782D /* Mobclix.h */,
+				3292E356151942310061782D /* MobclixAds.h */,
+				3292E357151942310061782D /* MobclixAdView.h */,
+				3292E358151942310061782D /* MobclixDemographics.h */,
+				3292E359151942310061782D /* MobclixFeedback.h */,
+				3292E35A151942310061782D /* MobclixFullScreenAdViewController.h */,
+			);
+			path = "Mobclix SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3292E334151942100061782D /* MobclixDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3292E34D151942100061782D /* Build configuration list for PBXNativeTarget "MobclixDemo" */;
+			buildPhases = (
+				3292E331151942100061782D /* Sources */,
+				3292E332151942100061782D /* Frameworks */,
+				3292E333151942100061782D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobclixDemo;
+			productName = MobclixDemo;
+			productReference = 3292E335151942100061782D /* MobclixDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3292E32C151942100061782D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3292E32F151942100061782D /* Build configuration list for PBXProject "MobclixDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3292E32A151942100061782D;
+			productRefGroup = 3292E336151942100061782D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3292E334151942100061782D /* MobclixDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3292E333151942100061782D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3292E344151942100061782D /* InfoPlist.strings in Resources */,
+				3292E351151942220061782D /* mobclix_application_id.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3292E331151942100061782D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3292E346151942100061782D /* main.m in Sources */,
+				3292E34A151942100061782D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3292E342151942100061782D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3292E343151942100061782D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3292E34B151942100061782D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3292E34C151942100061782D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3292E34E151942100061782D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobclixDemo/MobclixDemo-Prefix.pch";
+				INFOPLIST_FILE = "MobclixDemo/MobclixDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MobclixDemo/Mobclix SDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3292E34F151942100061782D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobclixDemo/MobclixDemo-Prefix.pch";
+				INFOPLIST_FILE = "MobclixDemo/MobclixDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MobclixDemo/Mobclix SDK\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3292E32F151942100061782D /* Build configuration list for PBXProject "MobclixDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3292E34B151942100061782D /* Debug */,
+				3292E34C151942100061782D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3292E34D151942100061782D /* Build configuration list for PBXNativeTarget "MobclixDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3292E34E151942100061782D /* Debug */,
+				3292E34F151942100061782D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3292E32C151942100061782D /* Project object */;
+}
