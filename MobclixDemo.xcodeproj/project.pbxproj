@@ -25,6 +25,10 @@
 		3292E36D151942940061782D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E363151942940061782D /* MessageUI.framework */; };
 		3292E36E151942940061782D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E364151942940061782D /* QuartzCore.framework */; };
 		3292E36F151942940061782D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292E365151942940061782D /* SystemConfiguration.framework */; };
+		32F2FCA2151E24D800046CFC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F2FCA1151E24D800046CFC /* iAd.framework */; };
+		32F2FCA5151E276400046CFC /* MultiAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F2FCA4151E276400046CFC /* MultiAdView.m */; };
+		32F2FCEF151E2E4300046CFC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F2FCEE151E2E4300046CFC /* MainViewController.m */; };
+		32F2FCF2151E44D000046CFC /* UIApplication+AppDimensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F2FCF1151E44D000046CFC /* UIApplication+AppDimensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +61,13 @@
 		3292E363151942940061782D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		3292E364151942940061782D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3292E365151942940061782D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		32F2FCA1151E24D800046CFC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		32F2FCA3151E276400046CFC /* MultiAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiAdView.h; sourceTree = "<group>"; };
+		32F2FCA4151E276400046CFC /* MultiAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiAdView.m; sourceTree = "<group>"; };
+		32F2FCED151E2E4300046CFC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		32F2FCEE151E2E4300046CFC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		32F2FCF0151E44D000046CFC /* UIApplication+AppDimensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AppDimensions.h"; sourceTree = "<group>"; };
+		32F2FCF1151E44D000046CFC /* UIApplication+AppDimensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AppDimensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F2FCA2151E24D800046CFC /* iAd.framework in Frameworks */,
 				3292E366151942940061782D /* AddressBook.framework in Frameworks */,
 				3292E367151942940061782D /* AddressBookUI.framework in Frameworks */,
 				3292E368151942940061782D /* AudioToolbox.framework in Frameworks */,
@@ -104,6 +116,7 @@
 		3292E338151942100061782D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32F2FCA1151E24D800046CFC /* iAd.framework */,
 				3292E35C151942940061782D /* AddressBook.framework */,
 				3292E35D151942940061782D /* AddressBookUI.framework */,
 				3292E35E151942940061782D /* AudioToolbox.framework */,
@@ -126,6 +139,12 @@
 			children = (
 				3292E348151942100061782D /* AppDelegate.h */,
 				3292E349151942100061782D /* AppDelegate.m */,
+				32F2FCED151E2E4300046CFC /* MainViewController.h */,
+				32F2FCEE151E2E4300046CFC /* MainViewController.m */,
+				32F2FCA3151E276400046CFC /* MultiAdView.h */,
+				32F2FCA4151E276400046CFC /* MultiAdView.m */,
+				32F2FCF0151E44D000046CFC /* UIApplication+AppDimensions.h */,
+				32F2FCF1151E44D000046CFC /* UIApplication+AppDimensions.m */,
 				3292E350151942220061782D /* mobclix_application_id.plist */,
 				3292E352151942310061782D /* Mobclix SDK */,
 				3292E340151942100061782D /* Supporting Files */,
@@ -223,6 +242,9 @@
 			files = (
 				3292E346151942100061782D /* main.m in Sources */,
 				3292E34A151942100061782D /* AppDelegate.m in Sources */,
+				32F2FCA5151E276400046CFC /* MultiAdView.m in Sources */,
+				32F2FCEF151E2E4300046CFC /* MainViewController.m in Sources */,
+				32F2FCF2151E44D000046CFC /* UIApplication+AppDimensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +321,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -315,6 +338,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -338,6 +362,7 @@
 				3292E34F151942100061782D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
